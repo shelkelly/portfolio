@@ -2,6 +2,7 @@
 body {
     background-color:rgb(91, 80, 95);
     background-image: url("https://github.com/shelkelly/portfolio/blob/master/assets/172.jpg?raw=true");
+    background-repeat: repeat;
     }
 
 .container-lg {
