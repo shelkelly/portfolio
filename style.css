@@ -36,7 +36,7 @@ div {
     padding-left: 5px;
     }
 
-    .container-lg {
+    .container-sm {
         width: 100%;
     }
 
@@ -58,8 +58,10 @@ div {
 }
 
 .row2 {
-background-color: rgb(109, 143, 109, 0.5);
-background-width: 80%;
+    width: 100%;
+    background-color: rgb(109, 143, 109, 0.5);
+    align-content: center;
+    border-radius: 10px;
 }
 
 .imgcol {
@@ -84,5 +86,12 @@ background-width: 80%;
 .col-xs {
     background-color: rgb(109, 143, 109);
     margin: 15px;
+    border-radius: 10px;
+}
+
+.grid-container {
+    width: 100%;
+    background-color: rgb(109, 143, 109, 0.5);
+    align-content: center;
     border-radius: 10px;
 }
