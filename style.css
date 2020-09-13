@@ -5,11 +5,6 @@ body {
     background-repeat: repeat;
     }
 
-.container-lg {
-    width: 100%;
-    border-radius: 10px;
-    }
-
 h1 {
     font-family: 'Antic Slab', serif;
     color: rgb(0, 0, 0);
@@ -65,15 +60,13 @@ div {
 }
 
 .imgcol {
-    background-color: rgb(109, 143, 109, 0.5);
-    width: 45%;
+    background-color: rgb(109, 143, 109);
     padding:5px;
-    margin-right: 20px;
+    border-radius: 10px;
 }
 .aboutcol{
-    background-color: rgb(109, 143, 109, 0.5);
-    width: 45%;
-    padding: 5px;
+    background-color: rgb(109, 143, 109);
+    padding: 20px;
     border-radius: 10px;
     margin-left:20px;
     text-align: center;
@@ -88,10 +81,23 @@ div {
     margin: 15px;
     border-radius: 10px;
 }
+.container-sm {
+    width: 100%;
+    border-radius: 10px;
+    }
 
 .grid-container {
     width: 100%;
     background-color: rgb(109, 143, 109, 0.5);
     align-content: center;
     border-radius: 10px;
+}
+
+.fa {
+    font-size: 50px;
+}
+
+.fixed-bottom {
+    background-color: rgb(109, 143, 109);
+    text-align: center;
 }
