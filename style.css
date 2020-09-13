@@ -20,8 +20,8 @@ p {
 
 .shelby {
     float: right;
-    width: 50%;
-    border-radius: 10px;
+    width: 30%;
+    border-radius: 150px;
     }
 
 div {
@@ -95,6 +95,10 @@ div {
 
 .fa {
     font-size: 50px;
+}
+
+.contactme {
+    padding: 20px;
 }
 
 .fixed-bottom {
