@@ -24,6 +24,10 @@ p {
     border-radius: 150px;
     }
 
+    .sk {
+        border-style: solid;
+    }
+
 div {
     padding-top: 5px;
     padding-right: 5px;
