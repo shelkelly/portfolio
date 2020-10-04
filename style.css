@@ -20,15 +20,19 @@ p {
     }
 
 a:link {
-    color: pink;
+    color: black;
 }
 
 a:visited {
     color: black;
 }
 
+a:hover {
+    background-color: pink;
+}
+
 #main {
-    padding: 175px;
+    padding: 100px;
 }
 
 #maintxt {
@@ -36,4 +40,13 @@ a:visited {
     color: black;
     text-align: center;
     font-size: 32px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: pink;
 }
