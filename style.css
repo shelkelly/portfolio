@@ -1,6 +1,6 @@
 
-body {00%;
-    background-size: 100% 
+body {
+    background-size: 100%; 
     background-color:gray;
     background-image: url("https://github.com/shelkelly/portfolio/blob/master/assets/webbg.jpg?raw=true");
     }
@@ -29,6 +29,7 @@ a:visited {
 
 a:hover {
     background-color: pink;
+    padding: 5px;
 }
 
 #main {
