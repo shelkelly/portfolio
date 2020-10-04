@@ -1,0 +1,39 @@
+
+body {00%;
+    background-size: 100% 
+    background-color:gray;
+    background-image: url("https://github.com/shelkelly/portfolio/blob/master/assets/webbg.jpg?raw=true");
+    }
+
+h1 {
+    font-family: 'Grenze Gotisch', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    }
+
+p {
+    font-family: 'Peddana', serif;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    }
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: black;
+}
+
+#main {
+    padding: 175px;
+}
+
+#maintxt {
+    font-family: 'Peddana', serif;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
