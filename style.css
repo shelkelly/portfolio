@@ -5,17 +5,17 @@ body {
     }
 
 h1 {
-    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Vollkorn SC', serif;
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     }
 
 p {
     font-family: 'Peddana', serif;
     color: black;
     text-align: center;
-    font-size: 25px;
+    font-size: 26px;
     }
 
 a:link {
@@ -50,3 +50,22 @@ a:hover {
     text-align: center;
     background: pink;
 }
+
+
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+    max-width: 1000px;
+  }
+  
+  .slide-right h1 {
+    animation: 3s slide-right .5s forwards;
+      transform:translateX(-100%);
+  }
+  
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
