@@ -1,22 +1,54 @@
-
 body {
     background-color:gray;
     background-image: url("https://github.com/shelkelly/portfolio/blob/master/assets/webbg.jpg?raw=true");
-    }
+}
 
 h1 {
     font-family: 'Vollkorn SC', serif;
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 70px;
-    }
+}
 
 p {
     font-family: 'Peddana', serif;
     color: black;
     text-align: center;
     font-size: 26px;
-    }
+}
+
+#main {
+    padding: 80px;
+}
+
+#maintxt {
+    font-family: 'Peddana', serif;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+
+.row {
+    margin: 15px;
+}
+
+/* RESPONSIVE IMAGE */
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+
+/* CENTER IMAGE */
+
+#center-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* PINK HOVER <3 */
 
 a:link {
     color: black;
@@ -31,16 +63,7 @@ a:hover {
     padding: 5px;
 }
 
-#main {
-    padding: 100px;
-}
-
-#maintxt {
-    font-family: 'Peddana', serif;
-    color: black;
-    text-align: center;
-    font-size: 32px;
-}
+/* FOOTER */
 
 .fixed-bottom {
     position: fixed;
@@ -51,6 +74,7 @@ a:hover {
     background: pink;
 }
 
+/* GREETING SLIDE-IN */
 
 .slide-right {
     width: 100%;
@@ -69,3 +93,29 @@ a:hover {
       transform:translateX(0);
     }
   }
+
+  #port {
+      width: 300px;
+      align-self: center;
+  }
+
+/* CARD PROPERTIES */
+
+.card {
+padding: 5px;
+}
+
+.card-title {
+    font-family: 'Vollkorn SC', serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Peddana', serif;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+
