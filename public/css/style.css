@@ -105,6 +105,11 @@ a:hover {
 padding: 5px;
 }
 
+.card-img-top {
+    border-color: gray;
+    border-style: solid;
+}
+
 .card-title {
     font-family: 'Vollkorn SC', serif;
     color: rgb(0, 0, 0);
